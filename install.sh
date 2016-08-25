@@ -3,6 +3,9 @@
 echo "Installing nginx..."
 vs_package -i nginx
 
+echo "Installing curl..."
+vs_package -i curl
+
 echo "Creating root directory..."
 mkdir -p /var/www/example.com/public_html
 
